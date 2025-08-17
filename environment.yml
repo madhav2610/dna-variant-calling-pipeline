@@ -1,0 +1,15 @@
+name: dna-variant-pipeline
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.9
+  - bwa
+  - samtools
+  - gatk4
+  - picard
+  - trimmomatic
+  - fastqc
+  - bcftools
+  - pysam
+  - biopython
