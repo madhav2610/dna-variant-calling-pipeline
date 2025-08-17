@@ -1,0 +1,8 @@
+# Reference genome (chr20)
+https://www.ncbi.nlm.nih.gov/nucleotide/CM000682.2
+
+# Sample SRA (SRR12023506)
+https://www.ncbi.nlm.nih.gov/sra/?term=SRR12023506
+
+# dbSNP variants (GRCh38p7, all chromosomes - later subset to chr20)
+https://ftp.ncbi.nlm.nih.gov/snp/organisms/human_9606_b151_GRCh38p7/VCF/
