@@ -91,25 +91,11 @@ conda activate bioinfo
 
 ---
 
-## ⚡ Usage
-
-Clone the repo:
-
-```bash
-git clone https://github.com/<your-username>/dna-variant-calling-pipeline.git
-cd dna-variant-calling-pipeline
-```
-
-Edit `config/parameters.yaml` and run the pipeline step by step:
-
-```bash
-bash scripts/01_download_data.sh
-bash scripts/02_qc_and_trim.sh
-bash scripts/03_alignment.sh
-bash scripts/04_postprocessing.sh
-bash scripts/05_variant_calling.sh
-bash scripts/06_variant_filtering.sh
-```
+## Notes
+- These scripts are written based on my own workflow using `chr20` reference and sample `SRR12023506`.
+- File names, reference genome, and sample IDs are **hardcoded** for demonstration purposes.
+- If you want to use these scripts, please edit them according to your own file names, paths, and parameters.
+- The pipeline order is general for DNA variant calling, but exact commands may vary depending on your dataset and tool versions.
 
 ---
 
