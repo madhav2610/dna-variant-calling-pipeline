@@ -1,0 +1,9 @@
+# Bioinformatics tools (install separately via conda/apt/bioconda)
+bwa
+samtools
+gatk
+picard
+trimmomatic
+fastqc
+bbmap
+bcftools
