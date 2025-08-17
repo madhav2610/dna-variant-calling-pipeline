@@ -79,7 +79,7 @@ conda activate bioinfo
 * `scripts/` → step-wise pipeline scripts.
 * `config/` → reference links.
 * `notes/troubleshooting.md` → full error log + fixes (my learning journey).
-* `results_example/` → filtered variant file for chr20.
+* `results_files/` → filtered variant file for chr20.
 * `workflow_diagram.png` → visual overview of pipeline.
 
 ---
